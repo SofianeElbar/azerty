@@ -1,0 +1,47 @@
+Déclaration de variables:
+
+Var Notes : tableau chaîne [1.....20]
+Var Etudiants : tableau chaîne [1.....20]
+Var Resultat
+cptPosition max
+
+
+1. 
+
+Début
+
+Pour Cpt <-- 1 à 20 faire
+
+/*Remplissage tableau etudiants*/
+
+Affiche "le nom de l'etudiant est"
+saisir  Etudiants[cpt]
+
+/*Remplissage tableau notes*/
+
+Affiche "la note de l'etudiant est"
+Saisir Notes[cpt]
+
+
+Affiche "le listing noms, notes est"
+Saisir Etudiants[cpt], Notes[cpt]
+
+Resultat <-- 0
+pour cpt de 1 à 20 Faire
+resultat <-- resultat + Notes[cpt]
+Fin Pour
+moy <-- resultat/20
+afficher moy
+
+
+Ecrire un programme qui réalise les étapes suivantes :
+1. Remplir un tableau Notes qui contient les notes de 20 étudiants
+2. Remplir un tableau Etudiants qui contient les noms de 20 étudiants
+3. Afficher la liste des étudiants avec les notes
+4. Afficher la moyenne des notes
+5. Afficher la note maximale et le nom de l’étudiant qui a obtenu cette note.
+
+Déclaration :
+
+
+
