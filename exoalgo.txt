@@ -1,4 +1,4 @@
-Déclaration de variables:
+Déclaration de variabless:
 
 Var Notes : tableau chaîne [1.....20]
 Var Etudiants : tableau chaîne [1.....20]
